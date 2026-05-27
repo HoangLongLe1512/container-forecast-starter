@@ -154,6 +154,7 @@ model.fit(
     epochs=30,
     batch_size=4,
     validation_split=0.2,
+    shuffle=False
     verbose=1,
     callbacks=[early_stop]
 )
